@@ -1,0 +1,25 @@
+{
+  "name": "frontend-libraries-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakin/frontend-libraries-comparison.git"
+  },
+  "author": "Joaquin Oltra <joaquin@chimeces.com> (http://chimeces.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakin/frontend-libraries-comparison/issues"
+  },
+  "homepage": "https://github.com/joakin/frontend-libraries-comparison#readme",
+  "dependencies": {
+    "gzip-size": "^3.0.0",
+    "human-size": "^1.1.0",
+    "markdown-table": "^1.1.0",
+    "node-fetch": "^1.7.1"
+  }
+}
