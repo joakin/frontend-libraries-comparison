@@ -6,13 +6,13 @@ information
 
 ## Summary
 
-| Library        | Size         | Size(gzip)  | Size(gzip) +router | Dom perf score | Server render score        | Maintained | Used by | License |
-| ---            | ---          | ---         | ---                | ---            | ---                        | ---        | ---     | ---     |
-| React          | (18.9) 150KB | (14.0) 46KB | (10.2) 53KB        | 1.30           | (5.2) 218 ops/sec ±1.75%   |            |         |         |
-| Vue            | (9.7) 77KB   | (8.6) 28KB  | (7.0) 36KB         | 1.21           | (1.8) 631 ops/sec ±4.68%   |            |         |         |
-| Preact         | (1.0) 8KB    | (1.0) 3KB   | (1.0) 5KB          | 1.21           | (1.0) 1,154 ops/sec ±0.79% |            |         |         |
-| Inferno        | (3.1) 24KB   | (2.7) 9KB   | (3.4) 17KB         | 1.07           | (1.5) 759 ops/sec ±1.56%   |            |         |         |
-| OOJS (+jQuery) |              |             |                    |                |                            |            |         |         |
+| Library        | Size         | Size(gzip)  | Size(gzip) +router | Dom perf score | Server render score        | Maintained | Used by | License                                                                                                                                  |
+| ---            | ---          | ---         | ---                | ---            | ---                        | ---        | ---     | ---                                                                                                                                      |
+| React          | (18.9) 150KB | (14.0) 46KB | (10.2) 53KB        | 1.30           | (5.2) 218 ops/sec ±1.75%   |            |         | [BSD 3](https://github.com/facebook/react/blob/master/LICENSE) w/ [PATENTS grant](https://github.com/facebook/react/blob/master/PATENTS) |
+| Vue            | (9.7) 77KB   | (8.6) 28KB  | (7.0) 36KB         | 1.21           | (1.8) 631 ops/sec ±4.68%   |            |         | [MIT License](https://github.com/vuejs/vue/blob/dev/LICENSE)                                                                             |
+| Preact         | (1.0) 8KB    | (1.0) 3KB   | (1.0) 5KB          | 1.21           | (1.0) 1,154 ops/sec ±0.79% |            |         | [MIT License](https://github.com/developit/preact/blob/master/LICENSE)                                                                   |
+| Inferno        | (3.1) 24KB   | (2.7) 9KB   | (3.4) 17KB         | 1.07           | (1.5) 759 ops/sec ±1.56%   |            |         | [MIT License](https://github.com/infernojs/inferno/blob/master/LICENSE.md)                                                               |
+| OOJS (+jQuery) |              |             |                    |                |                            |            |         |                                                                                                                                          |
 
 ## Dom perf score
 
