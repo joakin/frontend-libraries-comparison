@@ -32,5 +32,18 @@ module.exports = [
       view: ['https://unpkg.com/vue@2.3.4/dist/vue.min.js'],
       router: ['https://unpkg.com/vue-router@2.6.0/dist/vue-router.min.js']
     }
+  },
+  {
+    name: 'OOJS + jQuery + Hogan',
+    files: {
+      view: [
+        'https://unpkg.com/oojs@2.1.0/dist/oojs.jquery.min.js',
+        'https://unpkg.com/jquery@3.2.1/dist/jquery.min.js',
+        'https://unpkg.com/hogan.js@3.0.2/web/builds/3.0.2/hogan-3.0.2.min.js'
+      ],
+      router: [
+        'https://raw.githubusercontent.com/wikimedia/mediawiki/master/resources/lib/oojs-router/oojs-router.js'
+      ]
+    }
   }
 ];
