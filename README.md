@@ -8,11 +8,11 @@ information
 
 | Library              | Size         | Size(gzip)  | Size(gzip) +router | Dom perf score | Server render score        | Maintained | Used by | License                                                                                                                                  |
 | ---                  | --:          | --:         | --:                | --:            | --:                        | ---        | ---     | ---                                                                                                                                      |
-| React                | (18.9) 150KB | (14.0) 46KB | (10.2) 53KB        | 1.30           | (5.2) 218 ops/sec ±1.75%   |            |         | [BSD 3](https://github.com/facebook/react/blob/master/LICENSE) w/ [PATENTS grant](https://github.com/facebook/react/blob/master/PATENTS) |
-| Vue                  | (9.7) 77KB   | (8.6) 28KB  | (7.0) 36KB         | 1.21           | (1.8) 631 ops/sec ±4.68%   |            |         | [MIT License](https://github.com/vuejs/vue/blob/dev/LICENSE)                                                                             |
-| Preact               | (1.0) 8KB    | (1.0) 3KB   | (1.0) 5KB          | 1.21           | (1.0) 1,154 ops/sec ±0.79% |            |         | [MIT License](https://github.com/developit/preact/blob/master/LICENSE)                                                                   |
-| Inferno              | (3.1) 24KB   | (2.7) 9KB   | (3.4) 17KB         | 1.07           | (1.5) 759 ops/sec ±1.56%   |            |         | [MIT License](https://github.com/infernojs/inferno/blob/master/LICENSE.md)                                                               |
-| OOJS (+jQuery+Hogan) | (13.0) 103KB | (10.9) 36KB | (7.3) 38KB         | N/A            | N/A                        |            |         | MIT license                                                                                                                              |
+| React                | (18.9) 150KB | (14.0) 46KB | (10.2) 53KB        | 1.30           | (5.2) 218 ops/sec ±1.75%   | ✅         |         | [BSD 3](https://github.com/facebook/react/blob/master/LICENSE) w/ [PATENTS grant](https://github.com/facebook/react/blob/master/PATENTS) |
+| Vue                  | (9.7) 77KB   | (8.6) 28KB  | (7.0) 36KB         | 1.21           | (1.8) 631 ops/sec ±4.68%   | ✅         |         | [MIT License](https://github.com/vuejs/vue/blob/dev/LICENSE)                                                                             |
+| Preact               | (1.0) 8KB    | (1.0) 3KB   | (1.0) 5KB          | 1.21           | (1.0) 1,154 ops/sec ±0.79% | ✅         |         | [MIT License](https://github.com/developit/preact/blob/master/LICENSE)                                                                   |
+| Inferno              | (3.1) 24KB   | (2.7) 9KB   | (3.4) 17KB         | 1.07           | (1.5) 759 ops/sec ±1.56%   | ✅         |         | [MIT License](https://github.com/infernojs/inferno/blob/master/LICENSE.md)                                                               |
+| OOJS (+jQuery+Hogan) | (13.0) 103KB | (10.9) 36KB | (7.3) 38KB         | N/A            | N/A                        | ✅ + 💀    |         | MIT license                                                                                                                              |
 
 ## Dom perf score
 
@@ -63,3 +63,19 @@ Example:
 | Inferno               |   (3.1) 24KB |   (2.7) 9KB | (5.9) 26KB |   (4.5) 9KB |   (4.1) 50KB |  (3.4) 17KB |
 | Vue                   |   (9.7) 77KB |  (8.6) 28KB | (5.2) 23KB |   (4.3) 8KB |  (8.1) 100KB |  (7.0) 36KB |
 | OOJS + jQuery + Hogan | (13.0) 103KB | (10.9) 36KB |  (1.1) 5KB |   (1.1) 2KB |  (8.7) 108KB |  (7.3) 38KB |
+
+##Maintained
+
+Maintainability summaries at date 27 June 2017, 18:00 UTC
+
+| name    | commits | releases | contributors | last release | last commit  | 📈  | ⭐️      | Summary |
+| :---    | ---:    | ---:     | ---:         | ---:         | ---:         | --- | ---:    | ---     |
+| React   | 8,739   | 63       | 1,030        | 12 days ago  | an hour ago  | ✅  | ~70,000 | ✅      |
+| Preact  | 956     | 108      | 86           | Apr 9, 2017  | 8 days ago   | ✅  | ~10,500 | ✅      |
+| Inferno | 5,191   | 122      | 131          | 4 days ago   | 4 days ago   | ✅  | ~10,500 | ✅      |
+| Vue     | 2,039   | 204      | 115          | 20 days ago  | 10 days ago  | ✅  | ~58,000 | ✅      |
+| OOJS    | 299     | 25       | 14           | 28 days ago  | 27 days ago  | ✅  | 10      | ✅      |
+| jQuery  | 6,239   | 146      | 263          | Mar 20, 2017 | a day ago    | ✅  | ~45,000 | ✅      |
+| Hogan   | 242     | ??       | 38           | Jun 17, 2014 | May 21, 2015 | ❌  | ~4,700  | 💀      |
+
+* For 📈 look at the github graphs like https://github.com/facebook/react/graphs/contributors
