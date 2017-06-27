@@ -2,7 +2,9 @@ frontend-libraries-comparison
 =============================
 
 A few utility scripts for comparing frontend libraries and a summary of
-information
+information.
+
+Written for the Wikimedia Foundation, for https://phabricator.wikimedia.org/T167041
 
 ## Summary
 
