@@ -12,7 +12,7 @@ Written for the Wikimedia Foundation, for https://phabricator.wikimedia.org/T167
 | ---                  | --:          | --:         | --:                | --:            | --:                        | ---        | ---     | ---                                                                                                                                      |
 | React                | (18.9) 150KB | (14.0) 46KB | (10.2) 53KB        | 1.30           | (5.2) 218 ops/sec ±1.75%   | ✅         | ★★★★★   | [BSD 3](https://github.com/facebook/react/blob/master/LICENSE) w/ [PATENTS grant](https://github.com/facebook/react/blob/master/PATENTS) |
 | Vue                  | (9.7) 77KB   | (8.6) 28KB  | (7.0) 36KB         | 1.21           | (1.8) 631 ops/sec ±4.68%   | ✅         | ★★★★☆   | [MIT License](https://github.com/vuejs/vue/blob/dev/LICENSE)                                                                             |
-| Preact               | (1.0) 8KB    | (1.0) 3KB   | (1.0) 5KB          | 1.21           | (1.0) 1,154 ops/sec ±0.79% | ✅         | ★★★☆☆   | [MIT License](https://github.com/developit/preact/blob/master/LICENSE)                                                                   |
+| Preact               | (1.0) 8KB    | (1.0) 3KB   | (1.0) 5KB          | 1.21           | (1.0) 1,154 ops/sec ±0.79% | ✅         | ★★★★☆   | [MIT License](https://github.com/developit/preact/blob/master/LICENSE)                                                                   |
 | Inferno              | (3.1) 24KB   | (2.7) 9KB   | (3.4) 17KB         | 1.07           | (1.5) 759 ops/sec ±1.56%   | ✅         | ★★☆☆☆   | [MIT License](https://github.com/infernojs/inferno/blob/master/LICENSE.md)                                                               |
 | OOJS (+jQuery+Hogan) | (13.0) 103KB | (10.9) 36KB | (7.3) 38KB         | N/A            | N/A                        | ✅ + 💀    | ★★★★★   | MIT license                                                                                                                              |
 
@@ -96,13 +96,14 @@ Maintainability summaries at date 27 June 2017, 18:00 UTC
   * **Summary** ★★★★★ Widely used by all kinds of companies
 
 * [Preact](https://preactjs.com/about/we-are-using)
+  * [Uber](https://eng.uber.com/m-uber/)
   * Housing.com
   * Neo4j
   * Tencent QQ
   * Huayang Live Huayang Live
   * transformersmovie.com
   * Not much more information
-  * **Summary** ★★★☆☆ There are companies using it in production
+  * **Summary** ★★★★☆ There are companies using it in production
 * [Inferno](https://infernojs.org/about)
   * The Grid
   * Evite.com
