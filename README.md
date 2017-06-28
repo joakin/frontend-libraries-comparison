@@ -97,6 +97,7 @@ Maintainability summaries at date 27 June 2017, 18:00 UTC
 
 * [Preact](https://preactjs.com/about/we-are-using)
   * [Uber](https://eng.uber.com/m-uber/)
+  * [Lyft](https://mobile.twitter.com/addyosmani/status/879857433551622144)
   * Housing.com
   * Neo4j
   * Tencent QQ
