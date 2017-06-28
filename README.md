@@ -24,7 +24,9 @@ Number is having vanillaJS enabled as the baseline (1.0)
 
 ## Server render score
 
-From https://github.com/raxjs/server-side-rendering-comparison
+Refers to rendering to string on the server, specifically node.js servers.
+
+From <https://github.com/raxjs/server-side-rendering-comparison>:
 
 * See fixes pulls [inferno #18](https://github.com/raxjs/server-side-rendering-comparison/pull/18) [vue #15](https://github.com/raxjs/server-side-rendering-comparison/pull/15))
 * Those patches are applied in this fork [joakin/server-side-rendering-comparison [fixed-inferno-and-added-vue]](https://github.com/joakin/server-side-rendering-comparison/tree/fixed-inferno-and-added-vue)
