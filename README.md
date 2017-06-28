@@ -66,7 +66,7 @@ Example:
 | Vue                   |   (9.7) 77KB |  (8.6) 28KB | (5.2) 23KB |   (4.3) 8KB |  (8.1) 100KB |  (7.0) 36KB |
 | OOJS + jQuery + Hogan | (13.0) 103KB | (10.9) 36KB |  (1.1) 5KB |   (1.1) 2KB |  (8.7) 108KB |  (7.3) 38KB |
 
-##Maintained
+## Maintained
 
 Maintainability summaries at date 27 June 2017, 18:00 UTC
 
@@ -82,7 +82,7 @@ Maintainability summaries at date 27 June 2017, 18:00 UTC
 
 * For 📈 look at the github graphs like https://github.com/facebook/react/graphs/contributors
 
-##Used by
+## Used by
 
 * [React](https://github.com/facebook/react/wiki/sites-using-react)
   * Facebook
