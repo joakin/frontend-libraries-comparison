@@ -11,7 +11,7 @@ Written for the Wikimedia Foundation, for https://phabricator.wikimedia.org/T167
 | Library              | Size         | Size(gzip)  | Size(gzip) +router | Dom perf score | Server render score        | Maintained | Used by | License                                                                                                                                  |
 | ---                  | --:          | --:         | --:                | --:            | --:                        | ---        | ---     | ---                                                                                                                                      |
 | React                | (18.9) 150KB | (14.0) 46KB | (10.2) 53KB        | 1.30           | (5.2) 218 ops/sec ±1.75%   | ✅         | ★★★★★   | [BSD 3](https://github.com/facebook/react/blob/master/LICENSE) w/ [PATENTS grant](https://github.com/facebook/react/blob/master/PATENTS) |
-| Vue                  | (9.7) 77KB   | (8.6) 28KB  | (7.0) 36KB         | 1.21           | (1.8) 631 ops/sec ±4.68%   | ✅         | ★★★★☆   | [MIT License](https://github.com/vuejs/vue/blob/dev/LICENSE)                                                                             |
+| Vue                  | (7.0) 55KB   | (5.9) 20KB  | (5.3) 28KB         | 1.21           | (1.8) 631 ops/sec ±4.68%   | ✅         | ★★★★☆   | [MIT License](https://github.com/vuejs/vue/blob/dev/LICENSE)                                                                             |
 | Preact               | (1.0) 8KB    | (1.0) 3KB   | (1.0) 5KB          | 1.21           | (1.0) 1,154 ops/sec ±0.79% | ✅         | ★★★★☆   | [MIT License](https://github.com/developit/preact/blob/master/LICENSE)                                                                   |
 | Inferno              | (3.1) 24KB   | (2.7) 9KB   | (3.4) 17KB         | 1.07           | (1.5) 759 ops/sec ±1.56%   | ✅         | ★★☆☆☆   | [MIT License](https://github.com/infernojs/inferno/blob/master/LICENSE.md)                                                               |
 | OOJS (+jQuery+Hogan) | (13.0) 103KB | (10.9) 36KB | (7.3) 38KB         | N/A            | N/A                        | ✅ + 💀    | ★★★★★   | MIT license                                                                                                                              |
@@ -58,14 +58,14 @@ Preact#renderToString x 1,154 ops/sec ±0.79% (84 runs sampled)
 
 `node sizes.js` for getting a size report output. See `libs.js` for where the files are being fetched.
 
-Example:
+Last run:
 
 | name                  |         view |   view (gz) |     router | router (gz) |        total |  total (gz) |
 | :-------------------- | -----------: | ----------: | ---------: | ----------: | -----------: | ----------: |
 | React                 | (18.9) 150KB | (14.0) 46KB | (6.0) 27KB |   (3.7) 7KB | (14.2) 176KB | (10.2) 53KB |
 | Preact                |    (1.0) 8KB |   (1.0) 3KB |  (1.0) 4KB |   (1.0) 2KB |   (1.0) 12KB |   (1.0) 5KB |
 | Inferno               |   (3.1) 24KB |   (2.7) 9KB | (5.9) 26KB |   (4.5) 9KB |   (4.1) 50KB |  (3.4) 17KB |
-| Vue                   |   (9.7) 77KB |  (8.6) 28KB | (5.2) 23KB |   (4.3) 8KB |  (8.1) 100KB |  (7.0) 36KB |
+| Vue                   |   (7.0) 55KB |  (5.9) 20KB | (5.2) 23KB |   (4.3) 8KB |   (6.3) 78KB |  (5.3) 28KB |
 | OOJS + jQuery + Hogan | (13.0) 103KB | (10.9) 36KB |  (1.1) 5KB |   (1.1) 2KB |  (8.7) 108KB |  (7.3) 38KB |
 
 ## Maintained
